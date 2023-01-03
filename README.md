@@ -46,6 +46,11 @@ freshclam
 ClamAV 还有许多其他的用法，例如在后台运行定期扫描、扫描特定的文件夹或文件等。可以使用 `man clamscan` 命令查看详细的用法。
 
 # 使用方法
+先安装所需要的库
+```
+pip3 install tabulate
+```
+执行脚本
 ```
 python3 scan.py
 ```
