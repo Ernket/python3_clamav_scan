@@ -48,7 +48,7 @@ ClamAV 还有许多其他的用法，例如在后台运行定期扫描、扫描�
 # 使用方法
 先安装所需要的库
 ```
-pip3 install tabulate
+pip3 install -r requirements.txt
 ```
 执行脚本
 ```
